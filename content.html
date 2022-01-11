@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>YOUR PROFILE PAGE </title>
+    </head>
+    <body>
+    	<div class ="header">
+    		<h1>PATIENT DATA INFORMATION FORM  </h1>
+    	</div>
+    	<div class ="middle">
+    		<form action ="">
+    			<label for ="patient_id">PATIENT ID &nbsp</label>
+    			<input type="number" name="patient_id" id="patient_id" placeholder="">&nbsp&nbsp
+				<label for="date and day">ADMITTED DATE &nbsp&nbsp</label>
+				<input type="date" id="date and day" name="date and day" placeholder="DATE required">&nbsp&nbsp
+				<label for ="department">DEPARTMENT &nbsp&nbsp</label>
+				<select id ="department" name="department">
+					<option value="opd">OPD UNIT</option>
+					<option value="ortho">ORTHO UNIT</option>
+					<option value ="pedia">PEDIATRATIC UNIT</option>
+					<option value="cardio">CARDIOLOGY UNIT</option>
+					<option value="ent">ENT UNIT</option>
+					<option value="surgery">SURGERY UNIT</option>
+					<option value="burn">BURN UNIT</option>
+					<option value="optha">OPTHALOMOGY UNIT</option>
+					<option value="neuro">NEUROLOGY UNIT</option>
+					<option value="labor">LABOR UNIT</option>
+				</select>
+				<br>
+				<br>
+				<label for="name">NAME OF PATIENT &nbsp&nbsp</label>
+				<input type="text" id ="nameof" name="nameof" placeholder="NAME">&nbsp&nbsp
+				<label for="age">AGE OF PATIENT &nbsp&nbsp</label>
+				<select id="age" name="age">
+					<option value="0-3">0-3</option>
+					<option value="3-12">3-12</option>
+					<option value="12-18">12-18</option>
+					<option value="18-45">18-45</option>
+					<option value="45-60">45-60</option>
+					<option value=">60">>60</option>
+			    </select>&nbsp&nbsp
+			    <label for="condition">CONDITION ON ARRIVAL &nbsp&nbsp</label>
+			    <select id="condition" name="condition">
+			    	<option value="NORMAL">NORMAL</option>
+			    	<option value="MILD">MILD</option>
+			    	<option value="MODERATE">MODERATE</option>
+			    	<option value="CRITICAL">CRITICAL</option>
+			    	<option value="HIGHLY CRITICAL">HIGHLY CRITICAL</option>
+			    </select>
+    		</form>
+    	</div>
+    	<br>
+    	<br>
+    	<br>
+    	<br>
+    	<div class ="footer">
+    		<form action="">
+    			<label for="OPDNUM">BED NUMBER ASSIGNED&nbsp&nbsp</label>
+    			<select id="bednum" name="bednum">
+    				<option value="101">101</option>
+    				<option value="102">102</option>
+    				<option value="103">103</option>
+    				<option value="104">104</option>
+    				<option value="105">105</option>
+    				<option value="106">106</option>
+    				<option value="106">107</option>
+    				<option value="107">107</option>
+    				<option value="108">108</option>
+                    <option value="109">109</option>
+    				<option value="110">110</option>
+    			</select>&nbsp&nbsp
+    			<label for="suggestion">DOCTOR OPINION ON PATIENT&nbsp&nbsp</label>
+    			<input type="text" id="suggestion" name="suggestion" placeholder="DOCTOR OPINION" required>&nbsp&nbsp
+    			<label for="contactinfo">CONTACT INFO</label>
+    			<input type="text" id="contactinfo" name="contactinfo">
+    			<br><br>
+    			<legend>
+    			<form>
+    				<label for="medicinetype">MEDICINE TYPE</label>
+    				<select id="medicinetype" name="medicinetype">
+    					<option value="paracetamol">PARACETAMOL</option>
+    					<option value="dolo">DOLO</option>
+    					<option value="coughsyrup">COUGHSYRUP</option>
+    					<option value="Vicodin ">VICODIN</option>
+    					<option value="remedisiver">REMEDISIVER</option>
+    					<option value="Albuterol">ALBUTEROL</option>
+    					<option value="Lisinopril">LISINOPRIL</option>
+    					<option value="Levothyroxine">LEVOTHYROXINE</option>
+    					<option value="Gabapentin">GABAPENTIN</option>
+    					<option value="Metformin">METFORMIN</option>
+    					<option value="Lipitor ">LIPITOR</option>
+    					<option value="MDMN">MDMN</option>
+    					<option value="Amlodipine">AMLODIPINE</option>
+    				</select>
+    			</form>
+    		</legend>
+    		</form>
+    	</div>
+    </body>
+</html>
